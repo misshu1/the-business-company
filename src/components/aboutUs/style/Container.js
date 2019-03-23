@@ -1,0 +1,14 @@
+import styled from "styled-components";
+
+const Container = styled.section`
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+    @media (min-width: 50rem) {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+    }
+`;
+
+export default Container;
