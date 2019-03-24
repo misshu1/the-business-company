@@ -3,7 +3,7 @@ import styled, { keyframes } from "styled-components";
 const animate = keyframes`
 0% {
     opacity: 0;
-    transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -3rem, 0) ;
  
 }
 100% {

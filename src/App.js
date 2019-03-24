@@ -11,6 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import WidgetsApp from "./components/widgets/WidgetsApp";
 import AboutUsApp from "./components/aboutUs/AboutUsApp";
+import ArticlesApp from "./components/articles/ArticlesApp";
 
 library.add(faLock, faAngleRight, faAngleLeft);
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
                 </SwapOrder>
                 <WidgetsApp />
                 <AboutUsApp />
+                <ArticlesApp />
             </React.Fragment>
         );
     }

@@ -6,8 +6,10 @@ const ShowcaseContainer = styled.div`
     height: fit-content;
     margin: 0 auto;
 
-    @media (min-width: 800px) {
-        width: 50rem;
+    @media (min-width: 50rem) {
+        && {
+            width: 50rem;
+        }
     }
 `;
 

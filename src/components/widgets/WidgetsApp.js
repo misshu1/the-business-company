@@ -57,6 +57,7 @@ class WidgetsApp extends Component {
                             <ExpandButton>
                                 <button
                                     onClick={() => this.toggleOpen("widget1")}
+                                    aria-label="view info"
                                 >
                                     {widget1 === "close" ? "+" : "-"}
                                 </button>
@@ -107,6 +108,7 @@ class WidgetsApp extends Component {
                             <ExpandButton>
                                 <button
                                     onClick={() => this.toggleOpen("widget2")}
+                                    aria-label="view info"
                                 >
                                     {widget2 === "close" ? "+" : "-"}
                                 </button>
@@ -157,6 +159,7 @@ class WidgetsApp extends Component {
                             <ExpandButton>
                                 <button
                                     onClick={() => this.toggleOpen("widget3")}
+                                    aria-label="view info"
                                 >
                                     {widget3 === "close" ? "+" : "-"}
                                 </button>
@@ -207,6 +210,7 @@ class WidgetsApp extends Component {
                             <ExpandButton>
                                 <button
                                     onClick={() => this.toggleOpen("widget4")}
+                                    aria-label="view info"
                                 >
                                     {widget4 === "close" ? "+" : "-"}
                                 </button>

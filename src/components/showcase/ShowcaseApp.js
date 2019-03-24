@@ -52,11 +52,17 @@ class ShowcaseApp extends Component {
                         <span data-plus>+</span>
                     </TextContainer>
                     <ShowcaseNav>
-                        <button onClick={() => this.backButton()}>
+                        <button
+                            onClick={() => this.backButton()}
+                            aria-label="previous image"
+                        >
                             <FontAwesomeIcon icon="angle-left" />
                         </button>
                         <span />
-                        <button onClick={() => this.nextButton()}>
+                        <button
+                            onClick={() => this.nextButton()}
+                            aria-label="next image"
+                        >
                             <FontAwesomeIcon icon="angle-right" />
                         </button>
                     </ShowcaseNav>

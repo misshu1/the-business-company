@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Container from "./style/Container";
 import ItemName from "./style/ItemName";
-import ItemContainer from "./style/ItemContainer";
 import ItemInfo from "./style/ItemInfo";
 import Button from "./style/Button";
 import ViewButton from "./style/ViewButton";
@@ -120,15 +119,19 @@ class AboutUsApp extends Component {
         const create = about
             .filter((item, index) => showItems >= index + 1)
             .map((item, index) => (
-                <ItemContainer key={index}>
+                <div key={index}>
                     <ItemName>
                         {item.name}
-                        <Button onClick={this.toggleVisibility} id={index}>
+                        <Button
+                            onClick={this.toggleVisibility}
+                            id={index}
+                            aria-label="view info"
+                        >
                             {item.show ? "-" : "+"}
                         </Button>
                     </ItemName>
                     <ItemInfo show={item.show}>{item.info}</ItemInfo>
-                </ItemContainer>
+                </div>
             ));
         return create;
     };
