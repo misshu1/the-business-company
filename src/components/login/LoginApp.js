@@ -37,17 +37,17 @@ class LoginApp extends Component {
                         icon="lock"
                         style={{ color: "#53b8c4" }}
                     />
-                    <form>
+                    <form id="login">
                         <EmailInput />
                         <PasswordInput />
                     </form>
-                    <span>
+                    <button type="submit" form="login" value="Submit">
                         <FontAwesomeIcon
                             icon="angle-right"
                             style={{ color: "#fff" }}
                         />{" "}
                         GO
-                    </span>
+                    </button>
                 </LoginWindow>
                 <Backdrop
                     login={login}

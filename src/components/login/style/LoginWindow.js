@@ -26,7 +26,7 @@ const LoginWindow = styled.div`
         margin-right: 1rem;
         width: 100%;
     }
-    && span {
+    && button {
         display: block;
         line-height: 5rem;
         text-align: center;
@@ -35,6 +35,9 @@ const LoginWindow = styled.div`
         background: #53b8c4;
         height: 100%;
         min-width: 5rem;
+        outline: none;
+        border: none;
+        font-size: 1.2rem;
     }
     @media (min-width: 400px) {
         .lock {
