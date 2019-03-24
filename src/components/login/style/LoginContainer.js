@@ -8,6 +8,7 @@ const LoginContainer = styled.div`
     line-height: 3rem;
     box-sizing: border-box;
     font-weight: bold;
+    font-size: 0.8rem;
     font-size: 4vw;
 
     && a {

@@ -4,6 +4,7 @@ const LogoContainer = styled.div`
     display: flex;
     justify-content: center;
     color: #53b8c4;
+    font-size: 1.2rem;
     font-size: 8vw;
     font-weight: 500;
     text-transform: uppercase;

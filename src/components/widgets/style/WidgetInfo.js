@@ -18,6 +18,7 @@ const WidgetInfo = styled.div`
     padding-right: 1rem;
     width: calc(100% - 8rem);
     animation: ${animate} 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    font-size: 0.8rem;
     font-size: 4vw;
 
     @media (min-width: 25rem) {

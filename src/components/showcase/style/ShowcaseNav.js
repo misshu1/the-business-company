@@ -14,6 +14,7 @@ const ShowcaseNav = styled.div`
         background: transparent;
         border: none;
         outline: none;
+        font-size: 0.8rem;
         font-size: 4vw;
         color: #fff;
     }

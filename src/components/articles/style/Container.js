@@ -9,6 +9,7 @@ const Container = styled.section`
 
     && h2 {
         margin: 0;
+        font-size: 1rem;
         font-size: 6vw;
     }
 

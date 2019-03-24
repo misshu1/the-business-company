@@ -6,6 +6,7 @@ const Wrapper = styled.div`
     width: 100%;
 
     && p {
+        font-size: 0.8rem;
         font-size: 4vw;
         margin: 0;
         line-height: 1.2;

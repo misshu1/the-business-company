@@ -4,8 +4,11 @@ const Icon = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 3.2rem;
     min-width: 24vw;
+    height: 3.2rem;
     height: 24vw;
+    font-size: 1.6rem;
     font-size: 12vw;
     color: #fff;
 

@@ -12,6 +12,7 @@ const ExpandButton = styled.div`
         color: #53b8c4;
         border: none;
         outline: none;
+        font-size: 1.6rem;
         font-size: 12vw;
     }
 
