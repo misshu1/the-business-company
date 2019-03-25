@@ -120,7 +120,7 @@ class AboutUsApp extends Component {
             .filter((item, index) => showItems >= index + 1)
             .map((item, index) => (
                 <div key={index}>
-                    <ItemName>
+                    <ItemName showItems={showItems}>
                         {item.name}
                         <Button
                             onClick={this.toggleVisibility}

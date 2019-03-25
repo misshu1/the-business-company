@@ -10,11 +10,9 @@ class LoginBar extends Component {
         login: "close"
     };
     toggleLogin = () => {
-        if (this.state.login === "close") {
-            return this.setState({ login: "open" });
-        } else if (this.state.login === "open") {
-            return this.setState({ login: "close" });
-        }
+        this.state.login === "close"
+            ? this.setState({ login: "open" })
+            : this.setState({ login: "close" });
     };
     render() {
         const { login } = this.state;
