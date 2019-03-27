@@ -2,7 +2,7 @@
 
 ### Live Demo
 
-[Demo](http://businesscompany.andreinedelus.ro)
+[http://businesscompany.andreinedelus.ro](http://businesscompany.andreinedelus.ro)
 
 ### About
 
@@ -19,10 +19,10 @@ $ npm install
 $ node start
 ```
 
-### Desktop Version
+# Desktop Version
 
 ![Desktop Version](./readme/img/01.jpg)
 
-### Mobile Version
+# Mobile Version
 
 ![Mobile Version](./readme/img/mobile-01.jpg)
