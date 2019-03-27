@@ -2,7 +2,7 @@
 
 ### Live Demo
 
-![Demo](http://businesscompany.andreinedelus.ro)
+[Demo](http://businesscompany.andreinedelus.ro)
 
 ### About
 
