@@ -16,7 +16,7 @@
 ```sh
 $ cd the-business-company
 $ npm install
-$ node start
+$ npm start
 ```
 
 # Desktop Version
