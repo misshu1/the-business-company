@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Img = styled.img`
+export const Img = styled.img`
     max-width: 18rem;
     height: 10rem;
     margin-bottom: 1rem;
@@ -8,5 +8,3 @@ const Img = styled.img`
         align-self: center;
     }
 `;
-
-export default Img;

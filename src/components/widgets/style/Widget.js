@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Widget = styled.div`
+export const Widget = styled.div`
     margin: 1rem;
     display: flex;
     width: calc(100% - 2rem);
@@ -17,5 +17,3 @@ const Widget = styled.div`
         }
     }
 `;
-
-export default Widget;

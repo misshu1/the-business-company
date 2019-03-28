@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const LoginWindow = styled.div`
+export const LoginWindow = styled.div`
     position: absolute;
     display: ${props => (props.login === "open" ? "flex" : "none")};
     z-index: 20;
@@ -49,5 +49,3 @@ const LoginWindow = styled.div`
         }
     }
 `;
-
-export default LoginWindow;

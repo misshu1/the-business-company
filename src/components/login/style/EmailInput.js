@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const EmailInput = styled.input.attrs(() => ({
+export const EmailInput = styled.input.attrs(() => ({
     type: "email",
     placeholder: "Your e-mail"
 }))`
@@ -15,5 +15,3 @@ const EmailInput = styled.input.attrs(() => ({
         color: whitesmoke;
     }
 `;
-
-export default EmailInput;

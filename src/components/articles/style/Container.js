@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Container = styled.section`
+export const Container = styled.section`
     position: relative;
     box-sizing: border-box;
     width: 100%;
@@ -58,5 +58,3 @@ const Container = styled.section`
         }
     }
 `;
-
-export default Container;

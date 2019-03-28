@@ -1,12 +1,9 @@
 import React, { Component } from "react";
+import { ShowcaseContainer, ShowcaseNav, TextContainer, Img } from "./style";
+import LoginBarShowcase from "./LoginBarShowcase";
 import img1 from "./img/img1.jpg";
 import img2 from "./img/img2.jpg";
 import img3 from "./img/img3.jpg";
-import Img from "./style/Img";
-import ShowcaseContainer from "./style/ShowcaseContainer";
-import ShowcaseNav from "./style/ShowcaseNav";
-import TextContainer from "./style/TextContainer";
-import LoginBarShowcase from "./LoginBarShowcase";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class ShowcaseApp extends Component {

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ShowcaseNav = styled.div`
+export const ShowcaseNav = styled.div`
     box-sizing: border-box;
     display: flex;
     padding: 0 1rem;
@@ -34,5 +34,3 @@ const ShowcaseNav = styled.div`
         }
     }
 `;
-
-export default ShowcaseNav;

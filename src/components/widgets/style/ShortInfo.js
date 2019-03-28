@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ShortInfo = styled.div`
+export const ShortInfo = styled.div`
     padding: 0 1rem;
     && h2 {
         margin: 0;
@@ -22,5 +22,3 @@ const ShortInfo = styled.div`
         }
     }
 `;
-
-export default ShortInfo;

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import LogoApp from "./components/logo/LogoApp";
 import LoginApp from "./components/login/LoginApp";
 import ShowcaseApp from "./components/showcase/ShowcaseApp";
-import SwapOrder from "./components/style/SwapOrder";
+import { SwapOrder } from "./components/style";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
     faLock,

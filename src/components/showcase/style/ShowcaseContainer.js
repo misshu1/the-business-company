@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ShowcaseContainer = styled.div`
+export const ShowcaseContainer = styled.div`
     position: relative;
     width: 100%;
     height: fit-content;
@@ -12,5 +12,3 @@ const ShowcaseContainer = styled.div`
         }
     }
 `;
-
-export default ShowcaseContainer;

@@ -11,7 +11,7 @@ const fadeIn = keyframes`
 }
 `;
 
-const ItemInfo = styled.div`
+export const ItemInfo = styled.div`
     box-sizing: border-box;
     display: ${props => (props.show ? "block" : "none")};
     width: 7.5rem;
@@ -20,5 +20,3 @@ const ItemInfo = styled.div`
     padding: 1rem 0.5rem;
     animation: ${fadeIn} 0.3s ease-out 1 forwards;
 `;
-
-export default ItemInfo;

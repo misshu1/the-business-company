@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const WidgetContainer = styled.section`
+export const WidgetContainer = styled.section`
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -11,5 +11,3 @@ const WidgetContainer = styled.section`
         grid-template-columns: 1fr 1fr;
     }
 `;
-
-export default WidgetContainer;

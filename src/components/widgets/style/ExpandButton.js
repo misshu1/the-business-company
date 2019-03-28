@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ExpandButton = styled.div`
+export const ExpandButton = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,5 +22,3 @@ const ExpandButton = styled.div`
         }
     }
 `;
-
-export default ExpandButton;

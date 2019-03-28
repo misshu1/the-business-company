@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const TextContainer = styled.div`
+export const TextContainer = styled.div`
     display: flex;
     position: absolute;
     bottom: 1.4rem;
@@ -63,5 +63,3 @@ const TextContainer = styled.div`
         }
     }
 `;
-
-export default TextContainer;

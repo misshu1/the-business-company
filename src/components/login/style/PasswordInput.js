@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const PasswordInput = styled.input.attrs(() => ({
+export const PasswordInput = styled.input.attrs(() => ({
     type: "password",
     placeholder: "Your password"
 }))`
@@ -15,5 +15,3 @@ const PasswordInput = styled.input.attrs(() => ({
         color: whitesmoke;
     }
 `;
-
-export default PasswordInput;

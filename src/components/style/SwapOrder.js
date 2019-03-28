@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SwapOrder = styled.div`
+export const SwapOrder = styled.div`
     display: flex;
     flex-direction: column;
 
@@ -8,5 +8,3 @@ const SwapOrder = styled.div`
         flex-direction: column-reverse;
     }
 `;
-
-export default SwapOrder;

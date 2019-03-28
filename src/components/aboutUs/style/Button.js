@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Button = styled.button`
+export const Button = styled.button`
     position: absolute;
     right: 0;
     color: #fff;
@@ -8,5 +8,3 @@ const Button = styled.button`
     border: none;
     outline: none;
 `;
-
-export default Button;

@@ -1,9 +1,6 @@
 import React, { Component } from "react";
-import Container from "./style/Container";
-import Button from "./style/Button";
+import { Button, Container, Img, Wrapper } from "./style";
 import img1 from "../showcase/img/img1.jpg";
-import Img from "./style/Img";
-import Wrapper from "./style/Wrapper";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class ArticlesApp extends Component {

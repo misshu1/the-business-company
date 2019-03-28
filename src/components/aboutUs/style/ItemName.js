@@ -13,7 +13,7 @@ const fadeIn = keyframes`
 
 const initialItemsVisible = null;
 
-const ItemName = styled.h3`
+export const ItemName = styled.h3`
     position: relative;
     width: 6rem;
     margin: 0;
@@ -29,5 +29,3 @@ const ItemName = styled.h3`
             animation: ${fadeIn} 0.3s ease-out 1 forwards;
         `}
 `;
-
-export default ItemName;

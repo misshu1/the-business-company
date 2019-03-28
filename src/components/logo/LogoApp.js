@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import LogoContainer from "./style/LogoContainer";
+import { LogoContainer } from "./style";
 
 class LogoApp extends Component {
     render() {

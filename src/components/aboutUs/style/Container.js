@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Container = styled.section`
+export const Container = styled.section`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -11,5 +11,3 @@ const Container = styled.section`
         grid-gap: 2rem;
     }
 `;
-
-export default Container;

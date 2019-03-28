@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import LoginContainer from "../login/style/LoginContainer";
-import LoginWindow from "../login/style/LoginWindow";
+import {
+    LoginContainer,
+    LoginWindow,
+    EmailInput,
+    PasswordInput
+} from "./style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import EmailInput from "../login/style/EmailInput";
-import PasswordInput from "../login/style/PasswordInput";
 
 class LoginBar extends Component {
     state = {

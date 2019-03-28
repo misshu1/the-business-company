@@ -12,7 +12,7 @@ const animate = keyframes`
 }
 `;
 
-const WidgetInfo = styled.div`
+export const WidgetInfo = styled.div`
     box-sizing: border-box;
     margin-left: 8rem;
     padding-right: 1rem;
@@ -27,5 +27,3 @@ const WidgetInfo = styled.div`
         }
     }
 `;
-
-export default WidgetInfo;

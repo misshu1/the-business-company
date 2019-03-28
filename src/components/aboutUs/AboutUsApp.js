@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import Container from "./style/Container";
-import ItemName from "./style/ItemName";
-import ItemInfo from "./style/ItemInfo";
-import Button from "./style/Button";
-import ViewButton from "./style/ViewButton";
+import { Button, Container, ItemName, ItemInfo, ViewButton } from "./style";
 
 let selected = [];
 class AboutUsApp extends Component {

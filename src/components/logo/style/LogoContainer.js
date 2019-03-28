@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const LogoContainer = styled.div`
+export const LogoContainer = styled.div`
     display: flex;
     justify-content: center;
     color: #53b8c4;
@@ -25,5 +25,3 @@ const LogoContainer = styled.div`
         }
     }
 `;
-
-export default LogoContainer;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Backdrop = styled.div`
+export const Backdrop = styled.div`
     box-sizing: border-box;
     position: absolute;
     top: 0;
@@ -11,5 +11,3 @@ const Backdrop = styled.div`
     background: rgba(0, 0, 0, 0.7);
     display: ${props => (props.login === "open" ? "block" : "none")};
 `;
-
-export default Backdrop;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Icon = styled.div`
+export const Icon = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,5 +20,3 @@ const Icon = styled.div`
         }
     }
 `;
-
-export default Icon;

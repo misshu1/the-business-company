@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-import LoginContainer from "./style/LoginContainer";
-import LoginWindow from "./style/LoginWindow";
+import {
+    LoginContainer,
+    LoginWindow,
+    EmailInput,
+    PasswordInput,
+    Backdrop
+} from "./style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import EmailInput from "./style/EmailInput";
-import PasswordInput from "./style/PasswordInput";
-import Backdrop from "./style/Backdrop";
 
 class LoginApp extends Component {
     state = {

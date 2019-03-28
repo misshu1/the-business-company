@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-import WidgetContainer from "./style/WidgetContainer";
-import Widget from "./style/Widget";
-import Icon from "./style/Icon";
-import ShortInfo from "./style/ShortInfo";
-import ExpandButton from "./style/ExpandButton";
-import WidgetInfo from "./style/WidgetInfo";
+import {
+    Icon,
+    ExpandButton,
+    WidgetContainer,
+    Widget,
+    WidgetInfo,
+    ShortInfo
+} from "./style";
 
 class WidgetsApp extends Component {
     state = {

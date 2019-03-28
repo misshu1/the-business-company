@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const LoginContainer = styled.div`
+export const LoginContainer = styled.div`
     position: relative;
     background: #53b8c4;
     height: 3rem;
@@ -21,5 +21,3 @@ const LoginContainer = styled.div`
         }
     }
 `;
-
-export default LoginContainer;
