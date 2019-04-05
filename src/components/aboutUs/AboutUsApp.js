@@ -84,18 +84,13 @@ class AboutUsApp extends Component {
     toggleVisibility = e => {
         selected = [];
         selected = [...e.target.id];
-        this.state.about.map((item, index) => {
-            if (index === Number(selected.join(""))) {
-                this.setState(prevState => ({
-                    about: prevState.about.map((obj, index) =>
-                        index === Number(selected.join(""))
-                            ? Object.assign(obj, { show: !item.show })
-                            : obj
-                    )
-                }));
-            }
-            return null;
-        });
+        this.setState(prevState => ({
+            about: prevState.about.map((obj, index) =>
+                index === Number(selected.join(""))
+                    ? Object.assign(obj, { show: !obj.show })
+                    : obj
+            )
+        }));
     };
 
     showMore = () => {
@@ -112,23 +107,21 @@ class AboutUsApp extends Component {
 
     createItems = () => {
         const { about, showItems } = this.state;
-        const create = about
-            .filter((item, index) => showItems >= index + 1)
-            .map((item, index) => (
-                <div key={index}>
-                    <ItemName showItems={showItems}>
-                        {item.name}
-                        <Button
-                            onClick={this.toggleVisibility}
-                            id={index}
-                            aria-label="view info"
-                        >
-                            {item.show ? "-" : "+"}
-                        </Button>
-                    </ItemName>
-                    <ItemInfo show={item.show}>{item.info}</ItemInfo>
-                </div>
-            ));
+        const create = about.slice(0, showItems).map((item, index) => (
+            <div key={index}>
+                <ItemName showItems={showItems}>
+                    {item.name}
+                    <Button
+                        onClick={this.toggleVisibility}
+                        id={index}
+                        aria-label="view info"
+                    >
+                        {item.show ? "-" : "+"}
+                    </Button>
+                </ItemName>
+                <ItemInfo show={item.show}>{item.info}</ItemInfo>
+            </div>
+        ));
         return create;
     };
     render() {
